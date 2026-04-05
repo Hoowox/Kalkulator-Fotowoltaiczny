@@ -2,6 +2,7 @@
 
 Aplikacja desktopowa w Pythonie służąca do symulacji produkcji energii elektrycznej oraz analizy efektywności energetycznej.
 
+
 ## Funkcje
 * **Symulacja produkcji:** Obliczanie uzysków energii na podstawie zadanych parametrów.
 * **Przetwarzanie danych:** Obsługa plików wejściowych w formatach **Excel** oraz **JSON**.
@@ -10,6 +11,7 @@ Aplikacja desktopowa w Pythonie służąca do symulacji produkcji energii elektr
      * Zaawansowane wizualizacje danych w formacie **3D**.
 * **GUI:** Przyjazny interfejs użytkownika zbudowany w Tkinter.
 
+
 ## Technologia
 Program został zbudowany z wykorzystaniem:
 * **Python** (rdzeń aplikacji)
@@ -17,6 +19,14 @@ Program został zbudowany z wykorzystaniem:
 * **Pandas** – zaawansowana analiza i manipulacja danymi.
 * **Matplotlib** – generowanie wykresów i wizualizacji 2D/3D.
 
+
+## Wymagania systemowe
+
+- System operacyjny: Windows 7 / 8 / 10 / 11 (64-bit lub 32-bit)
+- Brak dodatkowego oprogramowania (Python, biblioteki itp.)
+- Ok. 250 MB wolnego miejsca na dysku (głównie na plik wykonywalny)
+
+  
 ## Instalacja i uruchomienie (Windows)
 
 Program jest dostarczany jako gotowy plik wykonywalny `.exe`. **Nie wymaga instalacji Pythona ani dodatkowych bibliotek**.
@@ -33,6 +43,7 @@ Program jest dostarczany jako gotowy plik wykonywalny `.exe`. **Nie wymaga insta
 4. Uruchom program **`Kalkulator Fotowoltaiczny.exe`**:
    - Kliknij na plik dwukrotnie lewym przyciskiem myszy.
    - Jeśli system Windows wyświetli ostrzeżenie o nieznanym wydawcy, kliknij **„Więcej informacji”**, a następnie **„Uruchom mimo to”** (program jest bezpieczny).
+
 
 ## Prezentacja autorskiego programu
 
@@ -57,9 +68,37 @@ Rys. 1.3 Wizualizacja projektu instalacji oraz wyników symulacji
 
 W sekcji „Zapisz” oraz „Importuj” przedstawionej na poniższym Rys. 1.4 możemy skorzystać z wymienionych funkcji w celu zapisania, bądź zaimportowania wprowadzanych danych, ustawień lub uzyskanych wykresów. Możliwość ta znacznie ułatwia pracę w przypadku kilku projektów, różnych danych, bądź konieczności dzielenia się wynikami z innymi użytkownikami.
 <img width="964" height="344" alt="image" src="https://github.com/user-attachments/assets/4d0ceb51-1433-4ba8-82fe-ca8ede3611b7" />
+
 Rys. 1.4 Zapis danych
+
 
 Poza wyżej wymienionymi funkcjami program posiada także inne oczywiste funkcje, m.in.:
 - zakładkę „Pomoc”, za pośrednictwem której można otworzyć okno z podstawowymi informacjami dotyczącymi obsługi programu (można je także wywołać, klikając w dowolnym momencie klawisz F1 na klawiaturze),
 - podstawową funkcję częściowego sprawdzania poprawności danych, która uniemożliwia stworzenie wykresu na podstawie danych, które są niepoprawne (np. zacienienie o wartości powyżej 99%) lub w przypadku próby wprowadzenia wyrazów w miejscu, gdzie program oczekuje cyfr.
+
+
+## Przykładowe dane i import
+
+W folderze `pomocne pliki` (w repozytorium) znajdują się pliki, które możesz wykorzystać do testowania i nauki obsługi programu.
+
+### Import danych pomiarowych (Excel)
+
+1. W programie przejdź do zakładki **„importuj”**.
+2. Kliknij przycisk **„importuj dane”**.
+3. Wskaż plik `DANEZ2023.xlsx` z folderu `pomocne pliki`.
+4. Dane zostaną wczytane i będą dostępne do dalszej analizy.
+
+
+
+### Import ustawień lub wykresów
+
+Analogicznie postępuj w przypadku importu wcześniej zapisanych ustawień symulacji lub wykresów:
+- Wybierz odpowiednią opcję w zakładce **„importuj”** (np. „importuj ustawienia”, „importuj wykres”).
+- Wskaż plik z folderu `pomocne pliki`.
+
+## Autor
+Bartosz Pawlak
+
+## Licencja
+MIT
 
