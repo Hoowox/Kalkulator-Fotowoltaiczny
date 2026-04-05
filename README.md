@@ -33,3 +33,6 @@ Program jest dostarczany jako gotowy plik wykonywalny `.exe`. **Nie wymaga insta
 4. Uruchom program **`Kalkulator Fotowoltaiczny.exe`**:
    - Kliknij na plik dwukrotnie lewym przyciskiem myszy.
    - Jeśli system Windows wyświetli ostrzeżenie o nieznanym wydawcy, kliknij **„Więcej informacji”**, a następnie **„Uruchom mimo to”** (program jest bezpieczny).
+
+
+
