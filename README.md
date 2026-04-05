@@ -1,4 +1,4 @@
-# Symulator produkcji energii fotowoltaicznej – budynek A10
+# Symulator produkcji energii fotowoltaicznej
 
 Autorski program do symulacji i analizy efektywności instalacji PV w kontekście zużycia energii przez budynek A10 Politechniki Łódzkiej.
 
