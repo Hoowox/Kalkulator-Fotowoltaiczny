@@ -47,32 +47,32 @@ Program jest dostarczany jako gotowy plik wykonywalny `.exe`. **Nie wymaga insta
 
 ## Prezentacja autorskiego programu
 
-Po uruchomieniu programu otrzymujemy interfejs główny przedstawiony na Rys. 1.1.. Składa się on z kilku zdefiniowanych sekcji, z których każda pełni określoną rolę. W lewym panelu użytkownik ma możliwość wprowadzania kluczowych danych wejściowych, takich jak liczba paneli, kąt nachylenia paneli, azymut, moc pojedynczego panelu, sprawność paneli, temperatura otoczenia, liczba godzin słonecznych w skali roku, wartość albedo, poziom zacienienia oraz zanieczyszczeń. Po wprowadzeniu danych, użytkownik może skorzystać z przycisku "Oblicz", który uruchamia skrypt dokonujący obliczeń. W rezultacie, uzyskany wynik jest prezentowany na dolnym panelu po lewej stronie interfejsu. Dzięki temu użytkownik ma natychmiastowy dostęp do rezultatów swoich działań. Prawa sekcja interfejsu zajmuje miejsce na prezentację wyników w formie graficznej, w postaci wykresu słupkowego lub wizualizacji 3D. W przypadku skorzystania z opcji wykresu użytkownik może analizować ilość energii wygenerowanej w poszczególnych miesiącach, przedstawionej za pomocą słupków.
+Po uruchomieniu programu otrzymujemy interfejs główny przedstawiony na Rys. 1.1. Składa się on z kilku zdefiniowanych sekcji, z których każda pełni określoną rolę. W lewym panelu użytkownik ma możliwość wprowadzania kluczowych danych wejściowych, takich jak liczba paneli, kąt nachylenia paneli, azymut, moc pojedynczego panelu, sprawność paneli, temperatura otoczenia, liczba godzin słonecznych w skali roku, wartość albedo, poziom zacienienia oraz zanieczyszczeń. Po wprowadzeniu danych, użytkownik może skorzystać z przycisku "Oblicz", który uruchamia skrypt dokonujący obliczeń. W rezultacie, uzyskany wynik jest prezentowany na dolnym panelu po lewej stronie interfejsu. Dzięki temu użytkownik ma natychmiastowy dostęp do rezultatów swoich działań. Prawa sekcja interfejsu zajmuje miejsce na prezentację wyników w formie graficznej, w postaci wykresu słupkowego lub wizualizacji 3D. W przypadku skorzystania z opcji wykresu użytkownik może analizować ilość energii wygenerowanej w poszczególnych miesiącach, przedstawionej za pomocą słupków.
 
-<img width="598" height="326" alt="image" src="https://github.com/user-attachments/assets/6d9e2fcc-69d7-4d32-8200-e19c6456f350" />
+![Główny interfejs programu – lewy panel z danymi wejściowymi, prawy panel z wykresami, dolny panel z wynikiem](https://github.com/user-attachments/assets/6d9e2fcc-69d7-4d32-8200-e19c6456f350)
 
-Rys. 1.1 Interfejs użytkownika
+**Rys. 1.1** Interfejs użytkownika
 
+W sekcji „Ustawienia” przedstawionej na Rys. 1.2 użytkownik może wprowadzić dodatkowe dane w postaci średnich miesięcznych temperatur oraz ilości godzin słonecznych, dzięki czemu możliwe jest uzyskanie dokładniejszych wyników. W sytuacji, gdy użytkownik nie skorzysta z funkcji ustawienia temperatur miesięcznych, konieczne będzie podanie jednej ogólnej temperatury dla całego roku.
 
-W sekcji „Ustawienia” przedstawionej na Rys. 1.2 użytkownik może wprowadzić dodatkowe dane w postaci średnich miesięcznych temperatur oraz ilości godzin słonecznych dzięki czemu możliwe jest uzyskanie dokładniejszych wyników. W sytuacji, gdy użytkownik nie skorzysta z funkcji ustawienia temperatur miesięcznych, konieczne będzie podanie jednej ogólnej temperatury dla całego roku.
-<img width="917" height="710" alt="image" src="https://github.com/user-attachments/assets/f9d52897-cbaa-453e-b25a-d37bd2b32cdf" />
+![Sekcja ustawień programu – formularz do wprowadzania średnich miesięcznych temperatur i godzin słonecznych](https://github.com/user-attachments/assets/f9d52897-cbaa-453e-b25a-d37bd2b32cdf)
 
-Rys. 1.2 Sekcja ustawień programu
-
+**Rys. 1.2** Sekcja ustawień programu
 
 Kolejną zakładkę reprezentowaną przez Rys. 1.3 stanowi wybór widoku. Po wprowadzeniu danych oraz obliczeniu wyniku użytkownik będzie mógł zobaczyć wykres, a także wizualizację budynku w 3D wraz z planowanymi modułami PV. Warto zaznaczyć, że całość jest w pełni interaktywna. Domek ukazany na wizualizacji obraca się samoczynnie. Ponadto możemy go zatrzymać, bądź obracać ręcznie za pomocą myszki.
-<img width="1253" height="485" alt="image" src="https://github.com/user-attachments/assets/49194baf-6dca-4364-b956-6a561fc257db" />
 
-Rys. 1.3 Wizualizacja projektu instalacji oraz wyników symulacji
+![Wizualizacja 3D budynku z modułami PV oraz okno z wykresem wyników symulacji](https://github.com/user-attachments/assets/49194baf-6dca-4364-b956-6a561fc257db)
 
+**Rys. 1.3** Wizualizacja projektu instalacji oraz wyników symulacji
 
 W sekcji „Zapisz” oraz „Importuj” przedstawionej na poniższym Rys. 1.4 możemy skorzystać z wymienionych funkcji w celu zapisania, bądź zaimportowania wprowadzanych danych, ustawień lub uzyskanych wykresów. Możliwość ta znacznie ułatwia pracę w przypadku kilku projektów, różnych danych, bądź konieczności dzielenia się wynikami z innymi użytkownikami.
-<img width="964" height="344" alt="image" src="https://github.com/user-attachments/assets/4d0ceb51-1433-4ba8-82fe-ca8ede3611b7" />
 
-Rys. 1.4 Zapis danych
+![Okno programu z przyciskami do zapisu i importu danych, ustawień oraz wykresów](https://github.com/user-attachments/assets/4d0ceb51-1433-4ba8-82fe-ca8ede3611b7)
 
+**Rys. 1.4** Zapis danych
 
 Poza wyżej wymienionymi funkcjami program posiada także inne oczywiste funkcje, m.in.:
+
 - zakładkę „Pomoc”, za pośrednictwem której można otworzyć okno z podstawowymi informacjami dotyczącymi obsługi programu (można je także wywołać, klikając w dowolnym momencie klawisz F1 na klawiaturze),
 - podstawową funkcję częściowego sprawdzania poprawności danych, która uniemożliwia stworzenie wykresu na podstawie danych, które są niepoprawne (np. zacienienie o wartości powyżej 99%) lub w przypadku próby wprowadzenia wyrazów w miejscu, gdzie program oczekuje cyfr.
 
