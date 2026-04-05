@@ -39,15 +39,21 @@ Program jest dostarczany jako gotowy plik wykonywalny `.exe`. **Nie wymaga insta
 Po uruchomieniu programu otrzymujemy interfejs główny przedstawiony na Rys. 1.1.. Składa się on z kilku zdefiniowanych sekcji, z których każda pełni określoną rolę. W lewym panelu użytkownik ma możliwość wprowadzania kluczowych danych wejściowych, takich jak liczba paneli, kąt nachylenia paneli, azymut, moc pojedynczego panelu, sprawność paneli, temperatura otoczenia, liczba godzin słonecznych w skali roku, wartość albedo, poziom zacienienia oraz zanieczyszczeń. Po wprowadzeniu danych, użytkownik może skorzystać z przycisku "Oblicz", który uruchamia skrypt dokonujący obliczeń. W rezultacie, uzyskany wynik jest prezentowany na dolnym panelu po lewej stronie interfejsu. Dzięki temu użytkownik ma natychmiastowy dostęp do rezultatów swoich działań. Prawa sekcja interfejsu zajmuje miejsce na prezentację wyników w formie graficznej, w postaci wykresu słupkowego lub wizualizacji 3D. W przypadku skorzystania z opcji wykresu użytkownik może analizować ilość energii wygenerowanej w poszczególnych miesiącach, przedstawionej za pomocą słupków.
 
 <img width="598" height="326" alt="image" src="https://github.com/user-attachments/assets/6d9e2fcc-69d7-4d32-8200-e19c6456f350" />
+
 Rys. 1.1 Interfejs użytkownika
+
 
 W sekcji „Ustawienia” przedstawionej na Rys. 1.2 użytkownik może wprowadzić dodatkowe dane w postaci średnich miesięcznych temperatur oraz ilości godzin słonecznych dzięki czemu możliwe jest uzyskanie dokładniejszych wyników. W sytuacji, gdy użytkownik nie skorzysta z funkcji ustawienia temperatur miesięcznych, konieczne będzie podanie jednej ogólnej temperatury dla całego roku.
 <img width="917" height="710" alt="image" src="https://github.com/user-attachments/assets/f9d52897-cbaa-453e-b25a-d37bd2b32cdf" />
+
 Rys. 1.2 Sekcja ustawień programu
+
 
 Kolejną zakładkę reprezentowaną przez Rys. 1.3 stanowi wybór widoku. Po wprowadzeniu danych oraz obliczeniu wyniku użytkownik będzie mógł zobaczyć wykres, a także wizualizację budynku w 3D wraz z planowanymi modułami PV. Warto zaznaczyć, że całość jest w pełni interaktywna. Domek ukazany na wizualizacji obraca się samoczynnie. Ponadto możemy go zatrzymać, bądź obracać ręcznie za pomocą myszki.
 <img width="1253" height="485" alt="image" src="https://github.com/user-attachments/assets/49194baf-6dca-4364-b956-6a561fc257db" />
+
 Rys. 1.3 Wizualizacja projektu instalacji oraz wyników symulacji
+
 
 W sekcji „Zapisz” oraz „Importuj” przedstawionej na poniższym Rys. 1.4 możemy skorzystać z wymienionych funkcji w celu zapisania, bądź zaimportowania wprowadzanych danych, ustawień lub uzyskanych wykresów. Możliwość ta znacznie ułatwia pracę w przypadku kilku projektów, różnych danych, bądź konieczności dzielenia się wynikami z innymi użytkownikami.
 <img width="964" height="344" alt="image" src="https://github.com/user-attachments/assets/4d0ceb51-1433-4ba8-82fe-ca8ede3611b7" />
