@@ -1,6 +1,6 @@
 # Symulator produkcji energii fotowoltaicznej
 
-Autorski program do symulacji i analizy efektywności instalacji PV w kontekście zużycia energii przez budynek A10 Politechniki Łódzkiej.
+Aplikacja desktopowa w Pythonie służąca do symulacji produkcji energii elektrycznej oraz analizy efektywności energetycznej.
 
 ## Funkcje
 
@@ -10,11 +10,11 @@ Autorski program do symulacji i analizy efektywności instalacji PV w kontekści
 - Symulacja produkcji energii z instalacji fotowoltaicznej
 - Porównanie z rzeczywistym zużyciem energii budynku
 
-## Wymagania
+## ✨ Funkcje
+* **Symulacja produkcji:** Obliczanie uzysków energii na podstawie zadanych parametrów.
+* **Przetwarzanie danych:** Obsługa plików wejściowych w formatach **Excel** oraz **JSON**.
+* **Wizualizacje:** * Interaktywne wykresy słupkowe.
+    * Zaawansowane wizualizacje danych w formacie **3D**.
+* **GUI:** Przyjazny interfejs użytkownika zbudowany w Tkinter.
 
-- Python 3.8 lub nowszy
-- Biblioteki:
-  - `tkinter` (zazwyczaj dołączony do Pythona)
-  - `pandas`
-  - `matplotlib`
 <img width="598" height="326" alt="image" src="https://github.com/user-attachments/assets/511b056a-280c-445d-9caf-86fa0c8b6ebf" />
