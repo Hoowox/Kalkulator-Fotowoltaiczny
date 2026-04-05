@@ -5,8 +5,9 @@ Aplikacja desktopowa w Pythonie służąca do symulacji produkcji energii elektr
 ## Funkcje
 * **Symulacja produkcji:** Obliczanie uzysków energii na podstawie zadanych parametrów.
 * **Przetwarzanie danych:** Obsługa plików wejściowych w formatach **Excel** oraz **JSON**.
-* **Wizualizacje:** * Interaktywne wykresy słupkowe.
-    * Zaawansowane wizualizacje danych w formacie **3D**.
+* **Wizualizacje:** 
+     * Interaktywne wykresy słupkowe.
+     * Zaawansowane wizualizacje danych w formacie **3D**.
 * **GUI:** Przyjazny interfejs użytkownika zbudowany w Tkinter.
 
 ## Technologia
